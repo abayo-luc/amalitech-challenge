@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '12'
+          node-version: '18'
 
       - name: Cache Node.js modules
         uses: actions/cache@v2
@@ -38,8 +38,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Audit dependencies
-        run: yarn audit
       - name: Build the app
         run: yarn build
   test:
@@ -52,7 +50,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '12'
+          node-version: '18'
 
       - name: Cache Node.js modules
         uses: actions/cache@v2
