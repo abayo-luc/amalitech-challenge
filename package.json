@@ -1,5 +1,5 @@
 {
-  "name": "new-nodejs-app",
+  "name": "amalitech-challenge",
   "version": "1.0.0",
   "description": "Amalitech Challenge",
   "main": ".dist/index.js",
