@@ -1,6 +1,6 @@
 # Amalitech Challenge
 
-This project, "amalitech-challenge", is a Node.js and TypeScript-based application. It features a REST API built with Express and Mongoose and is configured to run in a Docker environment with MongoDB.
+This project, `amalitech-challenge`, is a Node.js and TypeScript-based application. It features a REST API built with Express and Mongoose and is configured to run in a Docker environment with MongoDB.
 
 ## Features
 
